@@ -1,0 +1,143 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 0px 10px 30px;
+}
+
+/* Navbar Left Styles */
+.navbar-left-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    height: auto;
+}
+
+.navbar-left-side > .banner-image {
+    width: 15vw;
+    height: auto;
+}
+
+.navbar-left-side > .banner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar Center Styles */
+.navbar-center-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+
+    width: 100%;
+    height: auto;
+    margin-left: 4vw;
+}
+
+.navbar-center-side > .link-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-center-side > .link-content-wrapper > .link-header {
+    color: #e6c04a;
+    font-weight: 700;
+    /* font-size: 11.5PX; */
+    font-size: 1.1vw;
+}
+
+.navbar-center-side > .link-content-wrapper > .links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center-side > .link-content-wrapper > .links a {
+    margin-right: 1.4vw;
+
+    /* font-size: 16px; */
+    font-size: 1.4vw;
+
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.navbar-center-side > .link-content-wrapper > .links a:hover {
+    color: #4bce79;
+}
+
+.navbar-center-side > .link-content-wrapper > .links a:active {
+    opacity: 0.7;
+    transition: 0s;
+}
+
+.navbar-center-side > .link-content-wrapper > .links > .spark {
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    color: #A1ACAC
+}
+
+/* Navbar Right Styles */
+.navbar-right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+}
+
+.navbar-right-side > .create-button-wrapper > .button-text i {
+    color: #4bce79;
+}
+
+.navbar-right-side > .quick-search-wrapper {
+    padding: 0px 20px;
+    font-size: 2.5vw;
+    color: #5c637e;
+
+    transition: 0.5s;
+}
+
+.navbar-right-side > .quick-search-wrapper {
+    padding: 0px 20px;
+    font-size: 2.5vw;
+    color: #5c637e;
+
+    transition: 0.5s;
+}
+
+.navbar-right-side > .quick-search-wrapper:hover {
+    color: #4bce79;
+}
+
+.navbar-right-side > .quick-search-wrapper:active {
+    transform: rotate(7deg);
+    transition: 0s;
+}
+
+.navbar-right-side > .sign-up-button-wrapper {
+    margin-left: 1vw;
+    width: 9vw;
+}
+
+.navbar-right-side > .login-button-wrapper {
+    width: 7vw;
+}
+
+.navbar-right-side > .create-button-wrapper {
+    width: 10vw;
+}
+

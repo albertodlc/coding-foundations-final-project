@@ -1,0 +1,21 @@
+.footer-section-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-section-wrapper > .footer-column {
+    padding: 10px;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 1.75px;
+    border-color: #8c96be;
+    font-weight: 700;
+    background-color: #5c637e;
+}
+
+.footer-section-wrapper > .footer-column > .feature {
+    font-size: 1.8vw;
+    font-weight: 900;
+}
